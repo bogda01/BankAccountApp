@@ -1,0 +1,46 @@
+Bank Accounts
+
+0 puncte
+Database iD Role(client, bank employee) username password bani
+
+1 punct
+Argument cu rol(client/bank)
+
+2-puncte
+diagrama clase
+3 clase - Main (command line-rol client/banca), Parinte, Copil
+2 interfaces - Actions (Account Balance,Send/Pay,Add Money,Exchange), Login/Register,
+Age Check
+list- preia din DB lista de currency
+
+1 punct
+3 language Exceptions - FileNotFoundException - cand nu e file cu data
+, IOException - pt network cand citesc din DB/cand printez/citesc ceva, 
+NumberFormatException - cand cnv introduce suma
+NullPointerException - cand cnv nu introduce nimic, pt argument
+Argument Exception? - cand nu isi pun rolul
+IndexOutOfBounds
+
+1 punct
+Custom Exception? -InsufficientFundsException, ParentNotFound, InvalidAge - cand o
+persoana introduce <18,
+Argument Exception?
+
+1 punct
+Threads - multiple clients, operatiune  cand trimiti(un thread scade de la tine, 
+celalalt aduna la persoana care primeste)
+
+1 punct
+create connection, query data and show it on screen
+
+1 punct
+Insert, update data
+
+1 punct 
+role - ai diferite puteri, employee poate edita limitele clientului
+
+Interfate
+1 punct- Bank employee - vede toata DB, update limit
+1 punct- interfata client unde are doar Account Balance, send/Pay, Add Money, Exchange
+
+
